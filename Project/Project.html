@@ -18,40 +18,41 @@
             <li><a href="#">Lesson 2</a></li>
             <li><a href="#">Lesson 3</a></li>
             <li><a href="#">Lesson 4</a></li>
-            <li><a href="#" class="active">Lesson 5</a></li>
+            <li><a href="#">Lesson 5</a></li>
+            <li><a href="#" class="active">Final Project</a></li>
         </ul>
     </nav>
     <header>
-        <h1>Controlling Your Code</h1>
+        <h1>Name Generator</h1>
     </header>
     <main>
         <section>
             <h2>
-                Today is <span id="message2"></span>.
+                Select a type of Name:
             </h2>
-            <h3>
-                <span id="message1"></span>
-            </h3>
         </section>
         <hr>
         <section>
-            <h2>Temples in Utah</h2>
             <p>
-                Sort by: 
+                Choose: 
                 <select id="sortBy">
-                    <option value="templeNameAscending">Temple Name Ascending</option>
-                    <option value="templeNameDescending">Temple Name Descending</option>
+                    <option value="maleName">Male Name</option>
+                    <option value="femaleName">Female Name</option>
+                    <option value="lastName">Last Name</option>
                 </select>
             </p>
-            <div id="temples">
+            <div id="names">
+            </div>
+            <div>
+                <input type="button" id="Generate" value="Generate">
             </div>
         </section>
     </main>
     <footer>
-        &copy;<span id="year"></span> | Controlling Your Code | Lesson 5
+        &copy;<span id="year"></span> | Name Generator | Final Project
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/task5.js"></script>
+    <script src="scripts/Project.js"></script>
 </body>
 
 </html>
